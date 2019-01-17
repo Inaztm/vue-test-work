@@ -52,7 +52,7 @@ export default {
 
       this.login(data)
 
-      this.$router.push({name: 'profile'})
+      setTimeout(() => this.$router.push({name: 'profile'}), 1500)
     }
   }
 }

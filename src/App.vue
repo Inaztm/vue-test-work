@@ -39,6 +39,8 @@ export default {
     }),
     goToLogout () {
       this.logout()
+
+      setTimeout(() => this.$router.push({name: 'login'}), 1500)
     }
   }
 }
