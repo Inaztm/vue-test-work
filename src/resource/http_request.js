@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 let axiosInstance = axios.create({
-  baseURL: 'www.xxx.com/api',
+  baseURL: 'https://mysterious-reef-29460.herokuapp.com/api/v1',
   timeout: 120000
 })
 
